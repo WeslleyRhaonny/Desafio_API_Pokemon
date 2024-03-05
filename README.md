@@ -39,7 +39,7 @@ Retorna todos os times registrados.
 Retorna um time específico com base no ID único criado quando ele foi cadastrado através do POST.
 
 - POST /api/teams
-Cria um novo time com base no JSON fornecido.
+Cria um novo time com base no JSON fornecido, retornando que o time foi criado com sucesso e uma ID única para utilizar posteriormente na Rota GET /api/teams/:id, se houver algum erro no seu json, ele retornará o erro.
 
 ## Exemplo de uso do POST
 
