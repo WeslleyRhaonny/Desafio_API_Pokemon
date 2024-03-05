@@ -36,7 +36,7 @@ GET /api/teams
 Retorna todos os times registrados.
 
 GET /api/teams/:id
-Retorna um time específico com base no ID.
+Retorna um time específico com base no ID único criado quando ele foi cadastrado através do POST.
 
 POST /api/teams
 Cria um novo time com base no JSON fornecido.
@@ -46,6 +46,6 @@ Cria um novo time com base no JSON fornecido.
 Envie esse json para a rota POST, para isso você pode utilizar aplicativos como o Postman para realizar testes
 
 {
-  "user": "sleao",
+  "user": "Weslley",
   "team": ["blastoise", "pikachu", "charizard", "venusaur", "lapras", "dragonite"]
 }
